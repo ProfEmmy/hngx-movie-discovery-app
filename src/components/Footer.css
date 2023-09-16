@@ -1,0 +1,34 @@
+.footer-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-div {
+    display: grid;
+    justify-items: center;
+}
+
+.socials {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 35px;
+}
+
+.other-links {
+    display: flex;
+    gap: 57px;
+    margin-bottom: 30px;
+}
+
+.other-links>a {
+    color: #111827;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+.copyright-txt {
+    color: #6B7280;
+}

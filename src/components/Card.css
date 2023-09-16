@@ -1,0 +1,76 @@
+.movie-card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+}
+
+.place-time {
+    font-weight: 500;
+    color: #9CA3AF;
+}
+
+.movie-title_ {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 200px;
+    text-decoration: none;
+    font-size: 1.17em;
+    font-weight: bold;
+    color: #000;
+}
+
+.ratings-div>div {
+    display: flex;
+}
+
+.rating,
+.rating-percent {
+    font-size: .9em;
+}
+
+.rating-icon {
+    margin-right: 5px;
+}
+
+.tomato-icon {
+    margin-right: 5px;
+}
+
+.ratings2 {
+    margin-left: auto;
+}
+
+.movie-type {
+    color: #9CA3AF;
+    font-weight: 500;
+    max-width: 230px;
+}
+
+.movie-poster {
+    width: 250px;
+    height: 370px;
+}
+
+.fav-btn {
+    background-color: #F3F4F680;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 10px;
+    padding: 7px;
+    cursor: pointer;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.fav-btn>img {
+    margin: 0;
+    transition: all .3s;
+}
+
+.active-fav-btn>img {
+    filter: invert(100%) sepia(98%) saturate(0%) hue-rotate(327deg) brightness(104%) contrast(102%);
+}

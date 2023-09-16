@@ -1,0 +1,51 @@
+.description-div {
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.nav-mov-title {
+    font-size: 2.94em;
+    width: 500px;
+    letter-spacing: 3px;
+    word-spacing: 4.8px;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+
+.nav-mov-description {
+    font-size: 1.19em;
+    width: 401px;
+}
+
+.watch-trailer-btn {
+    text-transform: uppercase;
+    background-color: #BE123C;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.ratings-div {
+    display: flex;
+}
+
+.rating-icon {
+    margin-right: 13px;
+}
+
+.rating {
+    margin-right: 30px;
+}
+
+.tomato-icon {
+    margin-right: 10px;
+}

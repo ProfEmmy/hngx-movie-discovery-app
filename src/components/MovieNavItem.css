@@ -1,0 +1,22 @@
+.movie-nav-item {
+    display: flex;
+    width: 130px;
+    text-align: left;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.movie-nav-item:first-child {
+    margin-top: 0;
+}
+
+.nav-item-img {
+    margin-right: 10px;
+}
+
+.nav_link {
+    color: #666666;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1em;
+}
