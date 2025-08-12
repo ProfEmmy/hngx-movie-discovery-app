@@ -1,5 +1,5 @@
 import { NavDescription } from "../components/NavDescription"
-import { Footer } from "../components/footer"
+import { Footer } from "../components/Footer"
 import { Card } from "../components/Card"
 import { useEffect, useState } from "react"
 import logoImg from "../assets/tv.svg"
