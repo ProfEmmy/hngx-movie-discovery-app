@@ -20,7 +20,7 @@ body {
 .nav {
     width: 100vw;
     height: 651px;
-    /* background-image: url("src/assets/Poster.svg"); */
+    background-image: url("../assets/Poster.svg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

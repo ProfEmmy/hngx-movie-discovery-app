@@ -5,7 +5,6 @@ import { useEffect, useState } from "react"
 import logoImg from "../assets/tv.svg"
 import searchIcon from "../assets/Icon.svg"
 import menuIcon from "../assets/Menu alt 4.svg"
-import bg from "../assets/Poster.svg"
 import "./Home.css"
 
 export function Home() {
@@ -61,8 +60,6 @@ export function Home() {
             e.target.value = "Sorry we could'nt find that movie"
         }
     }
-    const nav = document.querySelector(".nav")
-    nav.style.backgroundImage = `url(${bg})`
 
     return (
         <>
